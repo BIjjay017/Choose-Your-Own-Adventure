@@ -6,11 +6,11 @@ class Settings(BaseSettings):
     API_PREFIX:str ="/api"
     DEBUG:bool =False
 
-    DATABASE_URL:str
+    DATABASE_URL:str = None
 
     ALLOWED_ORIGINS:str = ""
 
-    OPEN_API_KEY:str
+    OPEN_API_KEY:str | None=None
 
     @field_validator("ALLOWED_ORIGINS")
     def parse_allowed_origins(cls , v:str) -> List[str]:

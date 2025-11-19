@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, DateTime, Boolean, ForeignKey, J
 from sqlalchemy.sql import func
 from sqlalchemy.orm import relationship
 
-from backend.db.database import Base
+from db.database import Base
 
 class Story(Base):
     __tablename__ = "stories"
@@ -12,7 +12,7 @@ class Story(Base):
     session_id = Column(String, index=True)
     create_id = Column(DateTime(timezone=True), server_default = func.now())
 
-    nodes = relationship("Storynode", backpopulates = "story")
+    nodes = relationship("StoryNode", back_populates = "story")
 
 class StoryNode(Base):
     __tablename__ = "story_nodes"
