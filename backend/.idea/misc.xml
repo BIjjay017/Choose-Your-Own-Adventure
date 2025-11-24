@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.12 (Choose-Your-Own-Adventure)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (Choose-Your-Own-Adventure)" project-jdk-type="Python SDK" />
+<<<<<<< HEAD
+  <component name="PythonCompatibilityInspectionAdvertiser">
+    <option name="version" value="3" />
+  </component>
+=======
+>>>>>>> b98110b (Backend Complete with groq changed from OpenAi LLM)
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/Choose-Your-Own-Adventure.iml" filepath="$PROJECT_DIR$/.idea/Choose-Your-Own-Adventure.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/backend.iml" filepath="$PROJECT_DIR$/.idea/backend.iml" />
+>>>>>>> b98110b (Backend Complete with groq changed from OpenAi LLM)
+    </modules>
+  </component>
+</project>
